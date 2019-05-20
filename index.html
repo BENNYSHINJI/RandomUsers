@@ -5,82 +5,82 @@
 <!------ Include the above in your HEAD tag ---------->
 
 <head>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons">
-    <link rel="stylesheet" href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css" integrity="sha384-wXznGJNEXNG1NFsbm0ugrLFMQPWswR3lds2VeinahP8N0zJw9VWSopbjv2x7WCvX" crossorigin="anonymous">
-    <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
-    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons">
-    <link rel="stylesheet"type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons">
+  <link rel="stylesheet" href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css" integrity="sha384-wXznGJNEXNG1NFsbm0ugrLFMQPWswR3lds2VeinahP8N0zJw9VWSopbjv2x7WCvX" crossorigin="anonymous">
+  <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons">
+  <link rel="stylesheet"type="text/css" href="style.css">
 
-    <title>Benny Random User's</title>
-    
+  <title>Benny Random User's</title>
+  
 </head>
 
 <body class="profile-page" onload="getfullName(); getName();show('actualdetail');hide('actualdetail2');hide('actualdetail3');hide('actualdetail4');hide('actualdetail5');hide('actualdetail6')">
-    
-    
-    <div class="page-header header-filter" data-parallax="true" style="background-image:url('http://wallpapere.org/wp-content/uploads/2012/02/black-and-white-city-night.png');"></div>
-    <div class="main main-raised">
-    <div class="profile-content">
-            <div class="container">
-                <div class="row">
-                  <div class="col-md-6 ml-auto mr-auto">
-                     <div class="profile">
-                          <div class="avatar">
-                              <img id="avatar" alt="Circle Image" class="img-raised rounded-circle img-fluid">
-<br>
-<br>
+  
 
-                          </div>
-                          <div class="name">
-                            <h5  id="detail"></h5>
-                            <br>
-                            <br>
-                              <h3 class="title" id="actualdetail"></h3>
-                              <h3 class="title" id="actualdetail2"></h3>
-                              <h3 class="title" id="actualdetail3"></h3>
-                              <h3 class="title" id="actualdetail4"></h3>
-                              <h3 class="title" id="actualdetail5"></h3>
-                              <h3 class="title" id="actualdetail6"></h3>
-                              
+  
+  <div class="page-header header-filter" data-parallax="true" style="background-image:url('http://wallpapere.org/wp-content/uploads/2012/02/black-and-white-city-night.png');"></div>
+  <div class="main main-raised">
+  <div class="profile-content">
+  <div class="container">
+              <div class="row">
+                <div class="col-md-6 ml-auto mr-auto">
+                   <div class="profile">
+                        <div class="avatar">
+                            <img id="avatar" alt="Circle Image" class="img-raised rounded-circle img-fluid">
+                        </div>
+
+                        
+                        <div class="name">
+                          <h5  id="detail"></h5>
+                          <br>
+                          <br>
+                            <h3 class="title" id="actualdetail"></h3>
+                            <h3 class="title" id="actualdetail2"></h3>
+                            <h3 class="title" id="actualdetail3"></h3>
+                            <h3 class="title" id="actualdetail4"></h3>
+                            <h3 class="title" id="actualdetail5"></h3>
+                            <h3 class="title" id="actualdetail6"></h3>
+                            
 
 
 
-                              <div id="icons">
-                              
-                
-                <a id="user" href="#pablo" class="btn btn-just-icon btn-link btn-dribbble" onmouseover="getName();show('actualdetail');hide('actualdetail2');hide('actualdetail3');hide('actualdetail4');hide('actualdetail5');hide('actualdetail6')">
+                            <div clas="col-md-6 ml-auto mr-auto" id="icons">
+                            
+              
+              <a id="user" href="#pablo" class="btn btn-just-icon btn-link btn-dribbble" onmouseover="getName();show('actualdetail');hide('actualdetail2');hide('actualdetail3');hide('actualdetail4');hide('actualdetail5');hide('actualdetail6')">
 
-                  <i class="fas fa-user"></i></a>
-                                <a id="envelope" href="#pablo" class="btn btn-just-icon btn-link btn-envelope" onmouseover="getEmail();show('actualdetail2');hide('actualdetail');hide('actualdetail3');hide('actualdetail4');hide('actualdetail5');hide('actualdetail6')"><i class="fas fa-envelope"></i></a>
-                                <a  id="calendar" href="#pablo" class="btn btn-just-icon btn-link btn-calendar" onmouseover="getBirthday();show('actualdetail3');hide('actualdetail');hide('actualdetail2');hide('actualdetail4');hide('actualdetail5');hide('actualdetail6')"><i class="fas fa-calendar"></i></a>
-                                <a id="markedmap" href="#pablo" class="btn btn-just-icon btn-link btn-map-marked" onmouseover="getAddress();show('actualdetail4');hide('actualdetail');hide('actualdetail2');hide('actualdetail3');hide('actualdetail5');hide('actualdetail6')"><i class="fas fa-map-marked-alt"></i></a>
-                                <a id="phone" href="#pablo" class="btn btn-just-icon btn-link btn-phone" onmouseover="getPhone();show('actualdetail5');hide('actualdetail');hide('actualdetail2');hide('actualdetail3');hide('actualdetail4');hide('actualdetail6')"><i class="fas fa-phone" ></i></a>
-                                <a id="password" href="#pablo" class="btn btn-just-icon btn-link btn-lock" onmouseover="getPassword();show('actualdetail6');hide('actualdetail');hide('actualdetail2');hide('actualdetail3');hide('actualdetail4');hide('actualdetail5')"><i class="fas fa-lock"></i></a>
-                              </div>
-                          </div>
-                      </div>
-                  </div>
+                <i class="fas fa-user"></i></a>
+                              <a id="envelope" href="#pablo" class="btn btn-just-icon btn-link btn-envelope" onmouseover="getEmail();show('actualdetail2');hide('actualdetail');hide('actualdetail3');hide('actualdetail4');hide('actualdetail5');hide('actualdetail6')"><i class="fas fa-envelope"></i></a>
+                              <a  id="calendar" href="#pablo" class="btn btn-just-icon btn-link btn-calendar" onmouseover="getBirthday();show('actualdetail3');hide('actualdetail');hide('actualdetail2');hide('actualdetail4');hide('actualdetail5');hide('actualdetail6')"><i class="fas fa-calendar"></i></a>
+                              <a id="markedmap" href="#pablo" class="btn btn-just-icon btn-link btn-map-marked" onmouseover="getAddress();show('actualdetail4');hide('actualdetail');hide('actualdetail2');hide('actualdetail3');hide('actualdetail5');hide('actualdetail6')"><i class="fas fa-map-marked-alt"></i></a>
+                              <a id="phone" href="#pablo" class="btn btn-just-icon btn-link btn-phone" onmouseover="getPhone();show('actualdetail5');hide('actualdetail');hide('actualdetail2');hide('actualdetail3');hide('actualdetail4');hide('actualdetail6')"><i class="fas fa-phone" ></i></a>
+                              <a id="password" href="#pablo" class="btn btn-just-icon btn-link btn-lock" onmouseover="getPassword();show('actualdetail6');hide('actualdetail');hide('actualdetail2');hide('actualdetail3');hide('actualdetail4');hide('actualdetail5')"><i class="fas fa-lock"></i></a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
               </div>
-          
-        <script src="JavaScript.js"></script>
+            </div>
+        
+      <script src="JavaScript.js"></script>
 
 </body>
-          
-         <br>
-         <br>
+        
+       <br>
+       <br>
 
 
-         <button id="Next" type="button" onclick="getfullName(); getName();show('actualdetail');hide('actualdetail2');hide('actualdetail3');hide('actualdetail4');hide('actualdetail5');hide('actualdetail6')" class="btn btn-success">Next User</button>
+       <button id="Next" type="button" onclick="getfullName(); getName();show('actualdetail');hide('actualdetail2');hide('actualdetail3');hide('actualdetail4');hide('actualdetail5');hide('actualdetail6')" class="btn btn-success">Next User</button>
+
+<footer class="footer text-center ">
+  <br>
+  <br>
+     
+      <br>
+      <br>
+
+      <p id="footing">&copy; Benny Maila<p>
+  </footer>
   
-  <footer class="footer text-center ">
-    <br>
-    <br>
-       
-        <br>
-        <br>
-
-        <p id="footing">&copy; Benny Maila<p>
-    </footer>
-    
-    
+  
